@@ -172,6 +172,45 @@
             android:scaleType="fitCenter"
             android:layout_gravity="center_vertical">
         </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akun"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -195,6 +234,45 @@
             android:scaleType="fitCenter"
             android:layout_gravity="center_vertical">
         </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pegawai"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Worker"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -219,6 +297,45 @@
             android:scaleType="fitCenter"
             android:layout_gravity="center_vertical">
         </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Layanan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -242,6 +359,45 @@
             android:scaleType="fitCenter"
             android:layout_gravity="center_vertical">
         </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cabang"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -267,6 +423,45 @@
             android:scaleType="fitCenter"
             android:layout_gravity="center_vertical">
         </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cetak"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -291,6 +486,45 @@
             android:scaleType="fitCenter"
             android:layout_gravity="center_vertical">
         </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lainnya"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end">
+        </TextView>
     </androidx.cardview.widget.CardView>
 
 
