@@ -8,9 +8,10 @@
     tools:context=".lamanLayanan">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardatas"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/material_dynamic_neutral_variant95"
+        android:background="@color/material_dynamic_neutral95"
         tools:ignore="MissingConstraints">
     <ImageView
         android:layout_width="70dp"
@@ -52,5 +53,167 @@
         </TextView>
     </androidx.cardview.widget.CardView>
 
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:text="Pilih Layanan Laundry  :"
+    android:textSize="23sp"
+    android:textStyle="bold"
+    app:layout_constraintHorizontal_bias="0"
+    app:layout_constraintVertical_bias="0"
+    android:layout_marginTop="115dp"
+    android:layout_marginStart="20dp">
+</TextView>
+    <CheckBox
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:text="Cuci Setrika"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_dynamic_neutral95">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:text="Setrika Saja"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_dynamic_neutral95">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:text="Dry Cleaning"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_dynamic_neutral95">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:text="Cuci Kering"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_dynamic_neutral95">
+    </CheckBox>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Berat Pakaian (/kg)  :"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="20dp">
+    </TextView>
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:text="Masukan berat dalam satuan kg"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="20dp">
+
+    </EditText>
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:text="HITUNG"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="517dp"
+        android:layout_marginStart="20dp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Harga  :"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="580dp"
+        android:layout_marginStart="20dp">
+    </TextView>
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:text="INPUT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="630dp"
+        android:layout_marginStart="20dp">
+    </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
