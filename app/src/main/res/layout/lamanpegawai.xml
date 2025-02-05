@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="380dp"
-    android:layout_height="200dp"
+    android:layout_height="230dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="20dp"
-    android:layout_marginTop="100dp"
+    android:layout_marginTop="15dp"
     android:layout_gravity="center_horizontal">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content">    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ID PELANGGAN"
+        android:text="@string/card_pelanggan_id"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginStart="18dp">
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:background="@color/material_dynamic_neutral95">
     </TextView>
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
         android:src="@drawable/img_9"
         android:layout_marginTop="70dp"
         android:layout_marginStart="20dp"
@@ -31,19 +35,84 @@
         android:layout_height="1dp"
         android:background="@color/black"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="15dp"
         android:layout_gravity="end">
     </View>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Pelanggan : "
-        android:textStyle="normal"
-        android:textSize="20dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginStart="18dp">
+        android:text="@string/card_pelanggan_nama"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="140dp">
     </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_pelanggan_no"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="140dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_pelanggan_terdaftar"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="140dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_pelanggan_alamat"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="140dp">
+    </TextView>
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:text="@string/card_pelanggan_button_hubungi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/material_dynamic_neutral95">
+    </Button>
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:text="@string/card_pelanggan_button_lihat"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="195dp"
+        android:backgroundTint="@color/material_dynamic_neutral95">
+    </Button>
 
 </androidx.cardview.widget.CardView>
 
