@@ -11,7 +11,7 @@
         android:id="@+id/cardatas"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/material_dynamic_neutral95"
+        android:backgroundTint="@color/material_dynamic_neutral95"
         tools:ignore="MissingConstraints">
     <ImageView
         android:layout_width="70dp"
@@ -173,6 +173,7 @@
         android:text="HITUNG"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -180,7 +181,8 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
         android:layout_marginTop="517dp"
-        android:layout_marginStart="20dp">
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/material_dynamic_neutral95">
     </Button>
 
     <TextView
@@ -205,6 +207,7 @@
         android:text="INPUT"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -212,7 +215,8 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
         android:layout_marginTop="630dp"
-        android:layout_marginStart="20dp">
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/material_dynamic_neutral95">
     </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
