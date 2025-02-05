@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="TAMBAH PELANGGAN"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:textStyle="bold"
-        android:textAlignment="center">
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints">
     </TextView>
 
     <TextView
@@ -25,10 +26,56 @@
         android:padding="5dp"
         android:layout_marginTop="20dp"
         android:text="Nama"
-        android:textSize="20dp"
+        android:textSize="23dp"
         android:textStyle="bold"
-
+        android:layout_marginStart="25dp"
         app:layout_constraintTop_toBottomOf="@+id/judul">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+    </EditText>
+
+    <TextView
+        android:id="@+id/alamatcust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/namacust">
+    </TextView>
+
+    <TextView
+        android:id="@+id/nocust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/alamatcust">
+    </TextView>
+
+    <TextView
+        android:id="@+id/cabangcust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/nocust">
     </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

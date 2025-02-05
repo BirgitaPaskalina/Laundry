@@ -8,4 +8,5 @@
     <string name="card_pelanggan_alamat">Addres    :</string>
     <string name="card_pelanggan_button_lihat">See</string>
     <string name="card_pelanggan_button_hubungi">Contact</string>
+    <string name="card_pegawai_id">WORKER ID</string>
 </resources>
