@@ -1,12 +1,13 @@
 <resources>
+    <string name="tv1_TambahPelanggan">Tambah Pelanggan</string>
+    <string name="validasi_nama_pelanggan">Nama Tidak Boleh Kosong</string>
+    <string name="validasi_alamat_pelanggan">Alamat Tidak Boleh Kosong</string>
+    <string name="validasi_noHP_pelanggan">No Hp Tidak Boleh Kosong</string>
+    <string name="validasi_Cabang_pelanggan">Nama Cabang Tidak Boleh Kosong</string>
     <string name="app_name">Laundry</string>
-    <string name="print">Print</string>
-    <string name="card_pelanggan_id">ID Pelanggan</string>
-    <string name="card_pelanggan_nama">Nama      :</string>
-    <string name="card_pelanggan_no">No. HP    :</string>
-    <string name="card_pelanggan_terdaftar">Terdaftar :</string>
-    <string name="card_pelanggan_alamat">Alamat    :</string>
-    <string name="card_pelanggan_button_lihat">Lihat</string>
-    <string name="card_pelanggan_button_hubungi">Hubungi</string>
-    <string name="card_pegawai_id">ID PEGAWAI</string>
+    <string name="tv1_TambahPegawai">Tambah Pegawai</string>
+    <string name="validasi_nama_pegawai">Nama Tidak Boleh Kosong</string>
+    <string name="validasi_alamat_pegawai">Alamat Tidak Boleh Kosong</string>
+    <string name="validasi_noHP_pegawai">No Hp Tidak Boleh Kosong</string>
+    <string name="validasi_Cabang_pegawai">Nama Cabang Tidak Boleh Kosong</string>
 </resources>

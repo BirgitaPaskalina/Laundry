@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv1_TambahPelanggan">Tambah Pelanggan</string>
+    <string name="validasi_nama_pelanggan">Name Can\'t Be Empty</string>
+    <string name="validasi_alamat_pelanggan">Addres Can\'t Be Empty</string>
+    <string name="validasi_noHP_pelanggan">Phone Can\'t Be Empty</string>
+    <string name="validasi_Cabang_pelanggan">Branch Name Can\'t Be Empty</string>
+    <string name="app_name">Laundry</string>
+    <string name="tv1_TambahPegawai">Add Employed</string>
+    <string name="validasi_nama_pegawai">Name Can\'t Be Empty</string>
+    <string name="validasi_alamat_pegawai">Addres Can\'t Be Empty</string>
+    <string name="validasi_noHP_pegawai">Phone Can\'t Be  Empty</string>
+    <string name="validasi_Cabang_pegawai">Branch Name Can\'t Be Empty</string>
+</resources>
