@@ -43,6 +43,12 @@
             android:name=".layanan.EditLayanan"
             android:exported="false" />
         <activity
+            android:name=".tambah.DataTambah"
+            android:exported="false" />
+        <activity
+            android:name=".tambah.TambahTambahan"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
