@@ -1,4 +1,4 @@
-package com.sagara.laundry.cabang
+package com.example.laundry.cabang
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,7 +13,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.*
 import com.example.laundry.R
 import com.example.laundry.adapter.adapter_data_cabang
-import com.example.laundry.cabang.TambahCabang
 import com.example.laundry.modeldata.ModelCabang
 
 class DataCabang : AppCompatActivity() {
