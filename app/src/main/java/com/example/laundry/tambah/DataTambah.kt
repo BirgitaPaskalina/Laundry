@@ -11,6 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.*
 import com.example.laundry.modeldata.ModelTambah
 import com.example.laundry.R
+import com.example.laundry.adapter.adapter_data_tambah
 
 class DataTambah : AppCompatActivity() {
 
@@ -56,7 +57,7 @@ class DataTambah : AppCompatActivity() {
             }
         })
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(com.sagara.laundry.R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
