@@ -13,16 +13,37 @@
         android:theme="@style/Theme.Laundry"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".layanan.EditLayanan"
             android:exported="false" />
         <activity
-            android:name=".pegawai.DataPegawai"
+            android:name=".transaksi.activity_bayar_nanti"
             android:exported="false" />
         <activity
-            android:name=".pegawai.TambahPegawai"
+            android:name=".transaksi.activity_pilih_tambahan"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.KonfirmasiData"
+            android:exported="false" />
+        <activity
+            android:name=".pelanggan.EditPelanggan"
             android:exported="false" />
         <activity
             android:name=".pegawai.EditPegawai"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.activity_pilih_layanan"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.activity_pilih_pelanggan"
+            android:exported="false" />
+        <activity
+            android:name=".tambah.TambahTambahan"
+            android:exported="false" />
+        <activity
+            android:name=".tambah.DataTambah"
+            android:exported="false" />
+        <activity
+            android:name=".pegawai.TambahPegawai"
             android:exported="false" />
         <activity
             android:name=".pelanggan.TambahPelanggan"
@@ -31,7 +52,16 @@
             android:name=".pelanggan.DataPelanggan"
             android:exported="false" />
         <activity
-            android:name=".pelanggan.EditPelanggan"
+            android:name=".pegawai.DataPegawai"
+            android:exported="false" />
+        <activity
+            android:name=".cabang.DataCabang"
+            android:exported="false" />
+        <activity
+            android:name=".cabang.TambahCabang"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.Transaksi"
             android:exported="false" />
         <activity
             android:name=".layanan.datalayanan"
@@ -40,16 +70,7 @@
             android:name=".layanan.TambahLayanan"
             android:exported="false" />
         <activity
-            android:name=".layanan.EditLayanan"
-            android:exported="false" />
-        <activity
-            android:name=".tambah.DataTambah"
-            android:exported="false" />
-        <activity
-            android:name=".tambah.TambahTambahan"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name="com.android.laundry.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

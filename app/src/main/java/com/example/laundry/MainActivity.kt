@@ -1,73 +1,89 @@
-package com.example.laundry
+package com.android.laundry
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+import com.example.laundry.R
+import com.example.laundry.cabang.DataCabang
 import com.example.laundry.layanan.datalayanan
 import com.example.laundry.pegawai.DataPegawai
 import com.example.laundry.pelanggan.DataPelanggan
+import com.example.laundry.tambah.DataTambah
+import com.example.laundry.transaksi.Transaksi
 import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Locale
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    lateinit var pelanggan : CardView
+    lateinit var pegawai : CardView
+    lateinit var layanan : CardView
+    lateinit var cabang : CardView
+    lateinit var transaksi : CardView
+    lateinit var tambahan : CardView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        // Inisialisasi TextView
-            val tvGreeting: TextView = findViewById(R.id.tvGreeting)
-            val calendarTextView: TextView = findViewById(R.id.tvDate)
+        setContentView(R.layout.activity_main) // Pastikan file XML sesuai
 
-            // Menentukan bahasa perangkat
-            val language = Locale.getDefault().language
+        pelanggan = findViewById(R.id.card_masuk_pelanggan)
+        pegawai = findViewById(R.id.card_masuk_pegawai)
+        layanan = findViewById(R.id.card_masuk_layanan)
+        cabang = findViewById(R.id.card_masuk_cabang)
+        transaksi = findViewById(R.id.card_masuk_transaksi)
+        tambahan = findViewById(R.id.card_masuk_tambah)
 
-            // Mendapatkan jam saat ini
-            val calendar = Calendar.getInstance()
-            val hour = calendar.get(Calendar.HOUR_OF_DAY)
-
-            // Menampilkan pesan selamat berdasarkan waktu dan bahasa perangkat
-            val greeting = when (hour) {
-                in 5..10 -> if (language == "id") "Selamat Pagi, Dude" else "Good Morning, Dude"
-                in 11..14 -> if (language == "id") "Selamat Siang, Dude" else "Good Afternoon, Dude"
-                in 15..17 -> if (language == "id") "Selamat Sore, Dude" else "Good Evening, Dude"
-                else -> if (language == "id") "Selamat Malam, Dude" else "Good Night, Dude"
-            }
-            tvGreeting.text = greeting
-
-            // Menampilkan tanggal saat ini
-            val dateFormat = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
-            calendarTextView.text = dateFormat.format(Date())
-
-            // Inisialisasi CardView
-            val cardMasukPegawai = findViewById<CardView>(R.id.card_masuk_pegawai)
-            val cardMasukPelanggan = findViewById<CardView>(R.id.card_masuk_pelanggan)
-            val cardMasukLayanan = findViewById<CardView>(R.id.card_masuk_layanan)
-            val cardTambah = findViewById<CardView>(R.id.card_masuk_tambah)
-
-            // Set OnClickListener untuk CardView Pegawai
-            cardMasukPegawai.setOnClickListener {
-                val intent = Intent(this, DataPegawai::class.java) // Halaman Pegawai
-                startActivity(intent)
-            }
-
-            // Set OnClickListener untuk CardView Pelanggan
-            cardMasukPelanggan.setOnClickListener {
-                val intent = Intent(this, DataPelanggan::class.java) // Halaman Pelanggan
-                startActivity(intent)
-            }
-
-             //Set OnClickListener untuk CardView Layanan
-            cardMasukLayanan.setOnClickListener {
-                val intent = Intent(this, datalayanan::class.java) // Halaman Layanan
-                startActivity(intent)
-            }
-//            //Set OnClickListener untuk CardView Layanan
-//            cardTambah.setOnClickListener {
-//                val intent = Intent(this, laman_tambahan::class.java) // Halaman Layanan
-//                startActivity(intent)
-//            }
+        pelanggan.setOnClickListener {
+            val intent = Intent(this@MainActivity, DataPelanggan:: class.java)
+            startActivity(intent)
         }
+
+        pegawai.setOnClickListener {
+            val intent = Intent( this@MainActivity, DataPegawai:: class.java)
+            startActivity(intent)
+        }
+
+        layanan.setOnClickListener {
+            val intent = Intent( this@MainActivity, datalayanan::class.java)
+            startActivity(intent)
+        }
+
+        cabang.setOnClickListener {
+            val intent = Intent( this@MainActivity, DataCabang::class.java)
+            startActivity(intent)
+        }
+
+        transaksi.setOnClickListener {
+            val intent = Intent( this@MainActivity, Transaksi::class.java)
+            startActivity(intent
+            )
+        }
+
+        tambahan.setOnClickListener {
+            val intent = Intent( this@MainActivity, DataTambah::class.java)
+            startActivity(intent)
+        }
+
+
+        // Inisialisasi TextView
+        val sapaTextView: TextView = findViewById(R.id.tvGreeting)
+        val tanggalTextView: TextView = findViewById(R.id.tvDate)
+
+        // Menampilkan pesan selamat berdasarkan waktu
+        val calendar = Calendar.getInstance()
+        val hour = calendar.get(Calendar.HOUR_OF_DAY)
+        val greeting = when (hour) {
+            in 5..10 -> "Selamat Pagi, Claresta"
+            in 11..14 -> "Selamat Siang, Claresta"
+            in 15..17 -> "Selamat Sore, Claresta"
+            else -> "Selamat Malam, Claresta"
+        }
+        sapaTextView.text = greeting
+
+        // Menampilkan tanggal saat ini
+        val dateFormat = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
+        tanggalTextView.text = dateFormat.format(Date())
     }
+}
