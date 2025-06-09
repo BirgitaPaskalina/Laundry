@@ -135,15 +135,16 @@
 
     <!-- Tombol Sunting -->
     <Button
+        android:backgroundTint="@color/button"
         android:id="@+id/btnSunting"
         android:layout_width="0dp"
         android:layout_height="61dp"
         android:text="Sunting"
         android:textSize="18dp"
+        android:textColor="@color/black"
         android:layout_marginTop="35dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:backgroundTint="#CA8787"
         app:layout_constraintTop_toBottomOf="@id/etEditCabang"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

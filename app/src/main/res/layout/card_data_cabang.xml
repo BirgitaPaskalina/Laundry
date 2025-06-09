@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardCornerRadius="16dp">
+    app:cardCornerRadius="16dp"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="41dp"
-        android:background="@color/button">
+        android:background="@color/button"
+        >
 
         <TextView
             android:id="@+id/TvCard_ID_Cabang"
@@ -29,7 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        >
 
         <TextView
             android:id="@+id/TvCard_Nama_Cabang"
@@ -85,24 +88,24 @@
 
             <Button
                 android:id="@+id/btn_HUBUNGI"
-                android:layout_width="140dp"
+                android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:text="Hubungi"
                 android:textSize="18dp"
                 android:textColor="@color/text"
                 android:textStyle="normal"
-                android:backgroundTint="@color/button"/>
+                android:backgroundTint="#FFE99A"/>
 
             <Button
                 android:id="@+id/btn_LIHAT"
-                android:layout_width="140dp"
+                android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:text="Lihat"
                 android:textColor="@color/text"
                 android:textSize="18dp"
                 android:textStyle="normal"
-                android:backgroundTint="@color/button"/>
+                android:backgroundTint="#B9D4AA"/>
 
 
         </LinearLayout>

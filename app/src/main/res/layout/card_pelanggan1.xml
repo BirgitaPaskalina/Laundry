@@ -97,24 +97,23 @@
 
             <Button
                 android:id="@+id/btn_HUBUNGI"
-                android:layout_width="140dp"
+                android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:text="Hubungi"
                 android:textSize="18dp"
                 android:textStyle="normal"
-                android:backgroundTint="@color/button"
+                android:backgroundTint="#FFE99A"
                 android:textColor="@color/text"/>
 
             <Button
                 android:id="@+id/btn_LIHAT"
-                android:layout_width="140dp"
+                android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:backgroundTint="@color/button"
                 android:textColor="@color/text"
                 android:text="Lihat"
                 android:textSize="18dp"
-                android:textStyle="normal"/>
+                android:backgroundTint="#B9D4AA"/>
 
 
         </LinearLayout>

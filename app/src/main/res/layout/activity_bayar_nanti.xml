@@ -38,7 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Claresta Laundry"
+                        android:text="Linn's Laundry"
                         android:textColor="@color/text"
                         android:textSize="23dp"
                         android:textStyle="bold" />
@@ -137,7 +137,7 @@
                             android:id="@+id/TV_namapegawai"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Claresta"
+                            android:text="Gita"
                             android:textColor="@color/text"
                             android:textStyle="normal" />
                     </LinearLayout>

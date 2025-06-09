@@ -7,6 +7,6 @@
     <color name="strokeColor">#FFFFFF</color> <!-- Putih untuk dark mode -->
     <color name="text">#FFFFFF</color>
     <color name="text2">#000000</color>
-    <color name="button">#AE445A</color>
+    <color name="button">#FF8282</color>
     <color name="textbutton">#FFFFFF</color>
 </resources>

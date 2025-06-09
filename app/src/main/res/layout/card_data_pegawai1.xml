@@ -96,22 +96,22 @@
 
             <Button
                 android:id="@+id/btn_HUBUNGI_pegawai"
-                android:layout_width="140dp"
+                android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:text="Hubungi"
                 android:textSize="18dp"
                 android:textColor="@color/text"
-                android:backgroundTint="@color/button"/>
+                android:backgroundTint="#FFE99A"/>
 
             <Button
                 android:id="@+id/btn_LIHAT_pegawai"
-                android:layout_width="140dp"
+                android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:text="Lihat"
                 android:textColor="@color/text"
                 android:textSize="18dp"
-                android:backgroundTint="@color/button"/>
+                android:backgroundTint="#B9D4AA"/>
 
 
         </LinearLayout>

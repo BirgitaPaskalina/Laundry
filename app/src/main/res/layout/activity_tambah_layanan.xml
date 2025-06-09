@@ -94,14 +94,14 @@
         android:id="@+id/btn_Simpan_Layanan"
         android:layout_width="295dp"
         android:layout_height="61dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
         android:text="Simpan"
         android:textSize="18dp"
-        android:layout_marginTop="35dp"
-        android:backgroundTint="#CA8787"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ET4_NamaCabang_Layanan"/>
-
+        app:layout_constraintTop_toBottomOf="@id/ET4_NamaCabang_Layanan" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

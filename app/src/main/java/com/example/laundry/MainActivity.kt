@@ -75,10 +75,10 @@ class MainActivity : AppCompatActivity() {
         val calendar = Calendar.getInstance()
         val hour = calendar.get(Calendar.HOUR_OF_DAY)
         val greeting = when (hour) {
-            in 5..10 -> "Selamat Pagi, Claresta"
-            in 11..14 -> "Selamat Siang, Claresta"
-            in 15..17 -> "Selamat Sore, Claresta"
-            else -> "Selamat Malam, Claresta"
+            in 5..10 -> "Selamat Pagi, Gita"
+            in 11..14 -> "Selamat Siang, Gita"
+            in 15..17 -> "Selamat Sore, Gita"
+            else -> "Selamat Malam, Gita"
         }
         sapaTextView.text = greeting
 

@@ -127,7 +127,8 @@
         android:text="Simpan"
         android:textSize="18dp"
         android:layout_marginTop="35dp"
-        android:backgroundTint="#CA8787"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ET4_Layanan_Cabang" />
