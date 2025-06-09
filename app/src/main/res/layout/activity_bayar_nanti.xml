@@ -292,7 +292,7 @@
                             android:textStyle="bold"
                             android:paddingStart="8dp"
                             android:textColor="@color/text"
-                            android:text="Total Bayar"
+                            android:text="@string/total"
                             android:textSize="20sp" />
 
                         <TextView
@@ -332,7 +332,7 @@
                             android:id="@+id/kirimWA"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
-                            android:text="Kirim WhatsApp"
+                            android:text="@string/Kirim"
                             android:layout_marginEnd="5dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginBottom="30dp"
@@ -342,7 +342,7 @@
                             android:id="@+id/cetak"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
-                            android:text="Cetak"
+                            android:text="@string/Cetak"
                             android:layout_marginStart="5dp"
                             android:layout_marginBottom="30dp"
                             android:layout_marginEnd="5dp"

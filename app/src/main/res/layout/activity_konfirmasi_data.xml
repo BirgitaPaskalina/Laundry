@@ -127,7 +127,7 @@
             android:textStyle="bold"
             android:layout_marginStart="28dp"
             android:layout_marginEnd="15dp"
-            android:text="Total Bayar :"
+            android:text="@string/total"
             android:textSize="20dp" />
             <TextView
                 android:id="@+id/TvTotalBayar"
@@ -158,7 +158,7 @@
                 android:layout_marginEnd="10dp"
                 android:textColor="@color/black"
                 android:layout_marginBottom="5dp"
-                android:text="Batal" />
+                android:text="@string/Batal" />
 
             <Button
                 android:id="@+id/prosestransaksi"
@@ -169,7 +169,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"
                 android:backgroundTint="@color/button"
-                android:text="Pembayaran" />
+                android:text="@string/Pembayaran" />
         </LinearLayout>
 
 

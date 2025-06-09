@@ -72,4 +72,20 @@
     <string name="Hubungi">Hubungi</string>
     <string name="Lihat">Lihat</string>
     <string name="id_layanan">ID Layanan</string>
+    <string name="total">Total Bayar :</string>
+    <string name="Kirim">Kirim WhatsApp</string>
+    <string name="Tambah_Pelanggan">Tambah Pelanggan</string>
+    <string name="TambahTambahan">Tambah Tambahan</string>
+    <string name="masukkantambahan">Masukkan Tambahan</string>
+    <string name="Data_Pelanggan">Data Pelanggan</string>
+    <string name="Pilih_Pelanggan">Pilih Pelanggan</string>
+    <string name="Layanan_Utama">Layanan Utama</string>
+    <string name="Pilih_Layanan">Pilih Layanan</string>
+    <string name="Layanan_Tambahan">Layanan Tambahan</string>
+    <string name="Tambah">Tambah</string>
+    <string name="Proses">Proses</string>
+    <string name="Id_cabang">ID Cabang</string>
+    <string name="Layananada">Layanan yang tersedia</string>
+    <string name="ID_PEGAWAI">ID Pegawai</string>
+    <string name="nama">Nama</string>
 </resources>

@@ -73,4 +73,20 @@
     <string name="Hubungi">Contact</string>
     <string name="Lihat">See</string>
     <string name="id_layanan">Service ID</string>
+    <string name="total">Total Payment :</string>
+    <string name="Kirim">Send To WhatsApp</string>
+    <string name="Tambah_Pelanggan">Add Customer</string>
+    <string name="TambahTambahan">Add Additional</string>
+    <string name="masukkantambahan">Add Additional Name</string>
+    <string name="Data_Pelanggan">Customer Data</string>
+    <string name="Pilih_Pelanggan">Select Customer</string>
+    <string name="Layanan_Utama">Main Service</string>
+    <string name="Pilih_Layanan">Select Service</string>
+    <string name="Layanan_Tambahan">Add Service</string>
+    <string name="Tambah">Add</string>
+    <string name="Proses">Proses</string>
+    <string name="Id_cabang">Branch ID</string>
+    <string name="Layananada">Available Services</string>
+    <string name="ID_PEGAWAI">ID Employee</string>
+    <string name="nama">Name</string>
 </resources>

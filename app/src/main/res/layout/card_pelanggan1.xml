@@ -99,7 +99,7 @@
                 android:id="@+id/btn_HUBUNGI"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
-                android:text="Hubungi"
+                android:text="@string/Hubungi"
                 android:textSize="18dp"
                 android:textStyle="normal"
                 android:backgroundTint="#FFE99A"

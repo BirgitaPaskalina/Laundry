@@ -110,7 +110,7 @@
         android:id="@+id/tvCabang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cabang"
+        android:text="@string/Cabang"
         android:textSize="17dp"
         android:textColor="@color/text"
         android:layout_marginTop="20dp"
