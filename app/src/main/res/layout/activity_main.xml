@@ -11,7 +11,7 @@
         android:id="@+id/tvGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selamat Pagi, Linn"
+        android:text="@string/Sapaan"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintHorizontal_bias="0"
@@ -48,7 +48,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Estimasi Hari Ini"
+            android:text="@string/EstimasiHariIni   "
             android:textStyle="bold"
             android:textSize="20sp"
             android:layout_marginStart="15dp"
@@ -135,7 +135,7 @@
     android:id="@+id/semangat1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="Semangat ya Bestie!"
+    android:text="@string/Semangat"
     android:textSize="18sp"
     android:textStyle="bold"
     app:layout_constraintHorizontal_bias="0"
@@ -150,7 +150,7 @@
         android:id="@+id/semangat2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Melayani dengan Setengah Hati"
+        android:text="@string/Melayani"
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintTop_toBottomOf="@+id/semangat1"
@@ -185,7 +185,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Akun"
+            android:text="@string/Akun"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -210,7 +210,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Account"
+            android:text="@string/Account"
             android:textSize="15sp"
             android:textStyle="italic"
             android:textColor="@color/black"
@@ -250,7 +250,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pegawai"
+            android:text="@string/Pegawai"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -275,7 +275,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Worker"
+            android:text="@string/Employee"
             android:textSize="15sp"
             android:textStyle="italic"
             android:textColor="@color/black"
@@ -316,7 +316,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Layanan"
+            android:text="@string/Layanan"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -341,7 +341,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Service"
+            android:text="@string/Service"
             android:textSize="15sp"
             android:textStyle="italic"
             android:textColor="@color/black"
@@ -381,7 +381,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cabang"
+            android:text="@string/Cabang"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -406,7 +406,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Branch"
+            android:text="@string/Branch"
             android:textSize="15sp"
             android:textStyle="italic"
             android:textColor="@color/black"
@@ -448,7 +448,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cetak"
+            android:text="@string/Cetak"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -473,7 +473,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Print"
+            android:text="@string/Print"
             android:textSize="15sp"
             android:textStyle="italic"
             android:textColor="@color/black"

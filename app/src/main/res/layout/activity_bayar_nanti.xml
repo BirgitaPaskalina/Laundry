@@ -48,7 +48,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Cabang"
+                        android:text="@string/JUDULCABANG"
                         android:textColor="@color/text"
                         android:textSize="16dp"
                         android:textStyle="normal" />
@@ -63,7 +63,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="ID Transaksi"
+                            android:text="@string/ID_Transaksi"
                             android:textColor="@color/text"
                             android:textSize="16dp" />
 
@@ -86,7 +86,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Tanggal"
+                            android:text="@string/Tanggal"
                             android:textColor="@color/text" />
 
                         <TextView
@@ -108,7 +108,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Pesanan"
+                            android:text="@string/Pesanan"
                             android:textColor="@color/text" />
 
                         <TextView
@@ -130,14 +130,14 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Karyawan"
+                            android:text="@string/Karyawan"
                             android:textColor="@color/text" />
 
                         <TextView
                             android:id="@+id/TV_namapegawai"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Gita"
+                            android:text="Linn"
                             android:textColor="@color/text"
                             android:textStyle="normal" />
                     </LinearLayout>
@@ -161,7 +161,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_weight="1"
-                            android:text="Nama Layanan"
+                            android:text="@string/Nama_Layanan"
                             android:textColor="@color/text"
                             android:textSize="17dp"
                             android:textStyle="bold" />
@@ -188,7 +188,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:text="Rincian Tambahan"
+                        android:text="@string/Rincian_Tambahan"
                         android:textColor="@color/text"
                         android:textSize="16dp"
                         android:textStyle="bold" />
