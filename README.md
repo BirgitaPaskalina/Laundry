@@ -14,15 +14,34 @@
 
 ## 📦 Tampilan
 
+### Dashboard
+<img src="https://github.com/user-attachments/assets/6db10244-b811-4e78-af02-4c9b18b629fc" height="400"/>
+
 ### Transaksi
+<img src="https://github.com/user-attachments/assets/9b978d82-5d75-4d2c-946b-27f553ca2074" height="400"/>   <img src="https://github.com/user-attachments/assets/3d3cc5dc-36f8-4be6-86be-eb83b8fff9ca" height="400"/>   <img src="https://github.com/user-attachments/assets/8cd089fa-ed15-4adc-9ac6-d0b4be69e74d" height="400"/>   <img src="https://github.com/user-attachments/assets/98dec235-7fa6-4f70-ba6d-cdf1deb6b459" height="400"/>
+
+### Struk
+<img src="https://github.com/user-attachments/assets/ef013e77-7477-4fc2-9e26-5972b476486d" height="400"/>
+
+### Pencarian
+<img src="https://github.com/user-attachments/assets/ddfaa2e3-1be2-4221-b97e-edb58d177ec3" height="400"/>
+
 ### Card
+<img src="https://github.com/user-attachments/assets/16630fab-ce59-4d48-b9c0-0d50477af51a" height="400"/>
+
 ### Tambah Data
-### Cabang
-### Tambahan
+<img src="https://github.com/user-attachments/assets/22f4c275-18c3-4b4d-9ff7-7b2592ef0e9a" height="400"/>
+
+### Edit Data
+<img src="https://github.com/user-attachments/assets/0f567dd6-32ad-49a6-a825-e161e512bd1e" height="400"/>
+
+### Hubungi
+<img src="https://github.com/user-attachments/assets/2293ddad-c03f-46a0-a98a-479d61f9cb3f" height="400"/>
+
 
 ## 🚀 Rancangan Database
 
-## Fitur Utama
+## ✨ Fitur Utama
 | Fitur | Keterangan |
 | --- | --- |
 | Tambah Data | Menambahkan data pelanggan baru atau transaksi laundry. Validasi input otomatis (tidak boleh kosong, format benar. |
@@ -34,7 +53,7 @@
 |  Tampilan Data dengan Kartu (CardView) | Menampilkan transaksi atau pelanggan dalam format visual yang rapi dan menarik. Masing-masing kartu bisa di-tap untuk detail/edit/hapus. |
 
 
-## Pengujian
+## 🧪 Pengujian
 1. Pengujian Unit
   Model Test: Cek validasi data seperti nama pelanggan tidak boleh kosong, harga tidak negatif.
   Database Test:
@@ -54,7 +73,7 @@
     - Tekan tombol “Laporan” → tampil semua transaksi.
 
 
-##  Kontak
+##  💬 Kontak
 Untuk pertanyaan atau informasi lebih lanjut, silakan hubungi:
 
 Email: birgitapaskalinaayu@gmail.com
